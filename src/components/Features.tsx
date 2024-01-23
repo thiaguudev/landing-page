@@ -16,7 +16,7 @@ export default function Features() {
             <Image src="/icon.png" alt="Icon 1" width={82} height={82} />
             <h4 className="text-[28px] font-semibold">Fast building</h4>
             <p>
-              Tailor Anima's Landing Page UI Kit to your unique style and brand
+              Tailor Animas Landing Page UI Kit to your unique style and brand
               with customisable components, in no time!
             </p>
             <p className="text-[#009379]">Learn More</p>
@@ -26,7 +26,7 @@ export default function Features() {
             <Image src="/icon1.png" alt="Icon 1" width={82} height={82} />
             <h4 className="text-[28px] font-semibold">Responsive Design</h4>
             <p>
-              No need to worry about screen size. Anima's Landing Page UI Kit
+              No need to worry about screen size. Animas Landing Page UI Kit
               adapts to any screen size, from desktop to mobile.
             </p>
             <p className="text-[#009379]">Learn More</p>
@@ -36,7 +36,7 @@ export default function Features() {
             <Image src="/icon2.png" alt="Icon 1" width={82} height={82} />
             <h4 className="text-[28px] font-semibold">No Code Needed</h4>
             <p>
-              Zero coding skills required, Anima's Landing Page UI Kit empowers
+              Zero coding skills required, Animas Landing Page UI Kit empowers
               you to create stunning landing pages with ease.
             </p>
             <p className="text-[#009379]">Learn More</p>
