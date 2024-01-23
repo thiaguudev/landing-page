@@ -4,6 +4,7 @@ import Integrations from "@/components/Integrations";
 import Features from "@/components/Features";
 import Metrics from "@/components/Metrics";
 import Footer from "@/components/Footer";
+import Subscribe from "@/components/Subscribe";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Integrations />
       <Features />
       <Metrics />
+      <Subscribe />
       <Footer />
     </main>
   );
