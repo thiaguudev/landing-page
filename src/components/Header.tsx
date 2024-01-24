@@ -33,7 +33,7 @@ export default function Header() {
               </a>
             </li>
             <li>
-              <Link
+              <a
                 href="/sign-in"
                 className={cn(
                   buttonVariants({ variant: "default" }),
@@ -41,7 +41,7 @@ export default function Header() {
                 )}
               >
                 Entrar
-              </Link>
+              </a>
             </li>
           </ul>
         </nav>
