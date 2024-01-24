@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Script from "next/script";
+import { Analytics } from "@vercel/analytics/react";
 
 import { fontSans } from "@/config/fonts";
 import { cn } from "@/lib/utils";
@@ -33,6 +34,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
         )}
       >
         {children}
+        <Analytics mode="development" />
         <Script
           id="hotjar"
           dangerouslySetInnerHTML={{
