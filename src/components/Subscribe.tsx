@@ -3,7 +3,7 @@
 import { MailMinus } from "lucide-react";
 import { SubmitHandler, useForm } from "react-hook-form";
 import * as z from "zod";
-import { zodResolver } from '@hookform/resolvers/zod';
+import { zodResolver } from "@hookform/resolvers/zod";
 
 export default function Subscribe() {
   const schema = z.object({
@@ -11,10 +11,11 @@ export default function Subscribe() {
   });
 
   const { register, handleSubmit } = useForm<z.infer<typeof schema>>({
-    resolver: zodResolver(schema)
+    resolver: zodResolver(schema),
   });
 
-  const onSubmit: SubmitHandler<z.infer<typeof schema>> = async (d) => console.log(d);
+  const onSubmit: SubmitHandler<z.infer<typeof schema>> = async (d) =>
+    console.log(d);
 
   return (
     <section className="bg-[#E5F4F2] h-[311px] flex items-center justify-center">

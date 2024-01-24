@@ -4,7 +4,7 @@ export default function Metrics() {
       <div className="flex flex-col gap-[60px]">
         <div className="text-center">
           <h3 className="text-[38px] font-bold -tracking-tight">
-            Our Metrics Tell the Story
+            Nossas métricas contam a nossa história
           </h3>
           <p>
             Our metrics component gives you the inside scoop on your success and
@@ -13,20 +13,20 @@ export default function Metrics() {
         </div>
         <div className="flex justify-between">
           <div className="">
-            <p className="font-bold text-[38px]">10k+</p>
-            <p>Website launched</p>
+            <p className="font-bold text-[38px]">2k+</p>
+            <p>Clientes satisfeitos</p>
           </div>
           <div className="">
-            <p className="font-bold text-[38px]">931k+</p>
-            <p>Projects created with Anima</p>
+            <p className="font-bold text-[38px]">3M+</p>
+            <p>Pesquisas respondidas</p>
           </div>
           <div className="">
-            <p className="font-bold text-[38px]">240k+</p>
-            <p>New users joined Anima</p>
+            <p className="font-bold text-[38px]">96+</p>
+            <p>Empresas atendidas</p>
           </div>
           <div className="">
-            <p className="font-bold text-[38px]">12k+</p>
-            <p>Teams used Anima</p>
+            <p className="font-bold text-[38px]">197+</p>
+            <p>Times usando a Survey Apoli</p>
           </div>
         </div>
       </div>

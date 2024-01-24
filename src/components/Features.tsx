@@ -5,10 +5,12 @@ export default function Features() {
     <section className="mt-[120px]">
       <div className="flex flex-col gap-[60px]">
         <div className="text-center">
-          <h3 className="text-[38px] font-bold -tracking-tight">Features</h3>
+          <h3 className="text-[38px] font-bold -tracking-tight">
+            Nossos serviços
+          </h3>
           <p>
-            Few good reasons why you should use Anima Landing Page Ui Kit to
-            make your own pages.
+            Aqui está alguns dos motivos pelos quais você deve hoje mesmo
+            começar a usar a Survey Apoli e impulsionar o seu negócio.
           </p>
         </div>
         <div className="flex gap-[30px] justify-center">

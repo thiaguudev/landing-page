@@ -1,6 +1,6 @@
 import { Rocket } from "lucide-react";
 
-import { Button, buttonVariants } from "@/components/ui/button";
+import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
 export default function Hero() {
@@ -13,17 +13,18 @@ export default function Hero() {
         <p className="text-[28px]">
           With Anima, you can embed typeform in just a few steps.
         </p>
-        <Button
+        <a
+          href="#get-a-demo"
           className={cn(
-            buttonVariants({ variant: "default" }),
-            "py-4 px-[50px] w-full max-w-[200px] h-[48px] bg-[#009379] font-semibold text-md"
+            buttonVariants({ variant: "ghost" }),
+            "py-4 px-[50px] w-full max-w-[260px] h-[48px] bg-[#E5F4F2] text-[#009379] text-md flex items-center gap-2"
           )}
         >
-          <span className="mr-3">
+          <span>
             <Rocket />
           </span>{" "}
-          Start now for free
-        </Button>
+          Comece gratuitamente
+        </a>
       </div>
     </section>
   );
