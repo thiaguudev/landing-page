@@ -9,12 +9,7 @@ export default function Header() {
     <div className="">
       <div className="flex justify-between items-center">
         <div>
-          <Image
-            src="/logo.svg"
-            alt="Logotipo Survey Apoli"
-            width={179}
-            height={32}
-          />
+          <Image src="/logo.svg" alt="Logotipo" width={179} height={32} />
         </div>
         <nav>
           <ul className="flex gap-5 items-center">
