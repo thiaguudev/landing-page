@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <footer className="h-20 bg-black flex items-center">
+    <footer className="h-20 bg-black flex items-center justify-center">
       <div className="flex justify-between items-center px-[60px] w-full max-w-[1246px]">
         <p className="text-white text-sm">© 2024 Survey Apoli. </p>
         <div className="flex gap-4">
