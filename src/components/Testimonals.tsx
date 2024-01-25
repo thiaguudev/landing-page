@@ -2,8 +2,8 @@ import TestimonalItem from "./TestimonialItem";
 
 export default function Testimonals() {
   return (
-    <section className="mt-[100px]">
-      <div className="grid grid-cols-3 gap-2 justify-center justify-items-center space-y-5">
+    <section className="mt-[100px] flex justify-center items-center p-5">
+      <div className="grid grid-cols-3 gap-10 justify-center justify-items-center items-center">
         <TestimonalItem
           name="Roberto Mauro"
           job="Gerente de Experiência do Cliente"
