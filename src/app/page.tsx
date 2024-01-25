@@ -6,6 +6,7 @@ import Metrics from "@/components/Metrics";
 import Testimonals from "@/components/Testimonals";
 import Subscribe from "@/components/Subscribe";
 import Footer from "@/components/Footer";
+import Pricing from "@/components/Pricing";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       {/* <Features /> */}
       <Testimonals />
       <Metrics />
+      <Pricing />
       <Subscribe />
       <Footer />
     </main>
