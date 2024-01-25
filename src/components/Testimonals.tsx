@@ -7,6 +7,7 @@ export default function Testimonals() {
         <TestimonalItem
           name="Roberto Mauro"
           job="Gerente de Experiência do Cliente"
+          pictureSrc="/e1.png"
         >
           O produto da Survey Apoli transformou nossa abordagem em relação ao
           feedback do cliente. Antes, era um desafio coletar dados
@@ -14,7 +15,11 @@ export default function Testimonals() {
           e relevantes. A capacidade de entender as necessidades dos nossos
           usuários de forma tão eficaz mudou completamente o jogo para nós.
         </TestimonalItem>
-        <TestimonalItem name="João Arthur" job="Gerente de Operações">
+        <TestimonalItem
+          name="João Arthur"
+          job="Gerente de Operações"
+          pictureSrc="/e2.png"
+        >
           A Survey Apoli não apenas fornece uma maneira eficaz de coletar
           feedback, mas também nos ajuda a transformar esses dados em ações
           concretas. Com relatórios detalhados e sugestões prontas para
@@ -24,6 +29,7 @@ export default function Testimonals() {
         <TestimonalItem
           name="Ana Claúdia"
           job="CEO de uma Startup de Tecnologia"
+          pictureSrc="/e3.png"
         >
           Desde que começamos a utilizar o produto de coleta de feedback da
           Survey Apoli, nossa interação com os clientes atingiu um novo nível.
