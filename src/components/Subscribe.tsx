@@ -23,10 +23,6 @@ export default function Subscribe() {
         <h3 className="text-[38px] font-bold -tracking-tight">
           Inscreva-se e ganhe um desconto de 25%
         </h3>
-        <p>
-          Get weekly update about our product on your email, no spam guaranteed
-          we promise ✌️
-        </p>
         <form
           className="flex w-full gap-2 mt-10 relative justify-center"
           onSubmit={handleSubmit(onSubmit)}
