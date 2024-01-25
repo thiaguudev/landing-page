@@ -6,21 +6,13 @@ import { cn } from "@/lib/utils";
 
 export default function Header() {
   return (
-    <div className="">
+    <div className="max-w-[1246px] mx-auto">
       <div className="flex justify-between items-center">
         <div>
           <Image src="/logo.svg" alt="Logotipo" width={179} height={32} />
         </div>
         <nav>
           <ul className="flex gap-5 items-center">
-            <li>
-              <a
-                href="#contact"
-                className="text-base text-[#009379] font-semibold"
-              >
-                Contato
-              </a>
-            </li>
             <li>
               <a
                 href="#get-a-demo"

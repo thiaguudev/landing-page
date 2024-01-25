@@ -1,17 +1,23 @@
 import { Rocket } from "lucide-react";
+import { Cormorant_Garamond } from "next/font/google";
 
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
+
+const lobster = Cormorant_Garamond({
+  subsets: ['latin'],
+  weight: ["700"]
+})
 
 export default function Hero() {
   return (
     <section className="mt-[120px]">
       <div className="flex flex-col items-center justify-center gap-5">
-        <h1 className="text-[90px] tracking-tighter font-bold leading-none text-center">
-          Build landing pages with typeform embedded
+        <h1 className="text-[90px] tracking-tighter font-bold leading-snug text-center">
+          O jeito mais simples de colher a <span className={cn("bg-[#009379] text-white py-3 px-16 rounded-3xl", lobster.className)}>avaliação dos seus clientes</span>
         </h1>
-        <p className="text-[28px]">
-          With Anima, you can embed typeform in just a few steps.
+        <p className="text-2xl">
+          Faça sua empresa decolar!
         </p>
         <a
           href="#get-a-demo"

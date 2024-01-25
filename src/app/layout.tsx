@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Script from "next/script";
 import { Analytics } from "@vercel/analytics/react";
 
-import { fontSans } from "@/config/fonts";
+import { fontSans, fontMono } from "@/config/fonts";
 import { cn } from "@/lib/utils";
 import "./globals.css";
 
@@ -29,7 +29,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
     <html lang="en">
       <body
         className={cn(
-          "min-h-screen bg-background font-sans antialiased px-4 max-w-[1246px] mx-auto w-full bg-[#F8F9FF]",
+          "min-h-screen bg-background font-sans antialiased px-4 mx-auto w-full bg-[#F8F9FF] bg-gradient-to-tr from-white to-emerald-50",
           fontSans.className
         )}
       >

@@ -2,15 +2,15 @@ import Image from "next/image";
 
 export default function Features() {
   return (
-    <section className="mt-[120px]">
-      <div className="flex flex-col gap-[60px]">
+    <section className="mt-[120px] max-w-[1246px] mx-auto">
+      <div className="flex flex-col gap-[60px] max-w-[1246px]">
         <div className="text-center">
           <h3 className="text-[38px] font-bold -tracking-tight">
             Nossos serviços
           </h3>
           <p>
-            Aqui está alguns dos motivos pelos quais você deve hoje mesmo
-            começar a usar a Survey Apoli e impulsionar o seu negócio.
+            Aqui estão alguns dos motivos pelos quais você deve hoje mesmo
+            começar a usar a <strong>Survey Apoli</strong> e impulsionar o seu negócio.
           </p>
         </div>
         <div className="flex gap-[30px] justify-center">

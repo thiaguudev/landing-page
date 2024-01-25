@@ -38,10 +38,10 @@ export default function Subscribe() {
           />
           <button
             type="submit"
-            className="absolute end-10 bottom-0 h-[85px] w-full max-w-[225px] text-lg bg-[#009379] text-white font-semibold flex items-center justify-center rounded-[20px] py-4 px-[50px]"
+            className="absolute end-10 bottom-0 h-[85px] w-full max-w-[225px] text-lg bg-[#009379] text-white font-semibold rounded-[20px] py-4 px-[36px] flex items-center justify-center gap-2"
           >
-            <MailMinus className="mr-2" />
-            Inscreva-se
+            <MailMinus />
+            <span>Inscreva-se</span>
           </button>
         </form>
       </div>

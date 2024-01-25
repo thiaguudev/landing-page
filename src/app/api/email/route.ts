@@ -11,7 +11,5 @@ export async function POST() {
     react: KoalaWelcomeEmail({ userFirstname: "John Doe" }),
   });
 
-  console.log(response);
-
   return NextResponse.json({ status: "Ok" });
 }
