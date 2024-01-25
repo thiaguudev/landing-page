@@ -13,12 +13,11 @@ export default function Hero() {
   return (
     <section className="mt-[120px]">
       <div className="flex flex-col items-center justify-center gap-5">
-        <h1 className="text-[90px] tracking-tighter font-bold leading-snug text-center">
+        <h1 className="xl:text-[90px] text-4xl tracking-tighter font-bold leading-snug text-center">
           O jeito mais simples de colher a{" "}
           <span
             className={cn(
-              "bg-[#009379] text-white py-3 xl:px-16 rounded-3xl 2xl:inline-block 2xl:px-10",
-              cormorant.className
+              "bg-[#009379] text-white py-3 xl:px-16 rounded-3xl inline-block md:px-10"
             )}
           >
             avaliação dos seus clientes

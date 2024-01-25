@@ -3,8 +3,9 @@ import Hero from "@/components/Hero";
 import Integrations from "@/components/Integrations";
 import Features from "@/components/Features";
 import Metrics from "@/components/Metrics";
-import Footer from "@/components/Footer";
+import Testimonals from "@/components/Testimonals";
 import Subscribe from "@/components/Subscribe";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -12,7 +13,8 @@ export default function Home() {
       <Header />
       <Hero />
       <Integrations />
-      <Features />
+      {/* <Features /> */}
+      <Testimonals />
       <Metrics />
       <Subscribe />
       <Footer />

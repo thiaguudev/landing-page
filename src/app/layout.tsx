@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Script from "next/script";
 import { Analytics } from "@vercel/analytics/react";
 
-import { fontSans, fontMono } from "@/config/fonts";
+import { fontSans } from "@/config/fonts";
 import { cn } from "@/lib/utils";
 import "./globals.css";
 
