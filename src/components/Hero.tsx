@@ -23,7 +23,7 @@ export default function Hero() {
             avaliação dos seus clientes
           </span>
         </h1>
-        <p className="text-2xl">Faça sua empresa decolar!</p>
+        <p className="text-2xl font-semibold">Faça sua empresa decolar!</p>
         <a
           href="#get-a-demo"
           className={cn(
