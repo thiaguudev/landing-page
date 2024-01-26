@@ -1,4 +1,4 @@
-import { Check, Sparkles } from "lucide-react";
+import { Check, Sparkles, X } from "lucide-react";
 
 type PricingItemProps = {
   title: string;
@@ -7,10 +7,18 @@ type PricingItemProps = {
   isMoreUse?: boolean;
 };
 
-export default function PricingItem({ title, value, items , isMoreUse
+export default function PricingItem({
+  title,
+  value,
+  items,
+  isMoreUse,
 }: PricingItemProps) {
   return (
-    <div className={`bg-white pt-6 px-4 pb-4 rounded-sm relative ${isMoreUse && 'border-solid border-2 border-[#009379]'}`}>
+    <div
+      className={`h-full min-h-[360px] bg-white pt-6 px-4 pb-4 rounded-sm relative ${
+        isMoreUse && "border-solid border-2 border-[#009379]"
+      }`}
+    >
       {/* {isMoreUse && <div className="text-center text-white bg-[#009379] w-full flex font-semibold justify-center gap-3 absolute top-0 left-0 rounded-t-sm"><span>Mais popular</span><Sparkles /></div>} */}
       <p className="text-xl font-bold">{title}</p>
       <p className="text-sm">O melhor pra uso pessoal</p>
