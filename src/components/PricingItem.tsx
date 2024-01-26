@@ -17,7 +17,7 @@ export default function PricingItem({
 }: PricingItemProps) {
   return (
     <div
-      className={`h-full min-h-[360px] bg-white pt-6 px-4 pb-4 rounded-sm relative ${
+      className={`h-full min-h-[360px] bg-white pt-6 px-6 pb-4 rounded-sm relative ${
         isMoreUse && "border-solid border-2 border-[#009379]"
       }`}
     >
@@ -28,7 +28,7 @@ export default function PricingItem({
         <span className="text-3xl font-bold">R${value}</span> /mês
       </p>
       <button className="px-5 py-3 my-10 text-white bg-[#009379] font-semibold rounded-sm h-[42px] w-[256px] flex items-center justify-center">
-        Quero começar agora
+        Testar 7 dias grátis
       </button>
       <div className="flex flex-col gap-4">
         {items.map((item, index) => {
