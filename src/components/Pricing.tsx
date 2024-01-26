@@ -2,7 +2,7 @@ import { Check } from "lucide-react";
 
 type PricingItemProps = {
   title: string;
-  value: number;
+  value: string;
   items: string[];
 };
 
@@ -36,7 +36,7 @@ export default function Pricing() {
       <div className="flex gap-5 justify-center items-center">
         <PricingItem
           title="Free"
-          value={0}
+          value="0"
           items={[
             "Task Management",
             "Project Planning",
@@ -46,7 +46,7 @@ export default function Pricing() {
         />
         <PricingItem
           title="Starter"
-          value={8}
+          value="59,90"
           items={[
             "Task Management",
             "Project Planning",
@@ -56,7 +56,7 @@ export default function Pricing() {
         />
         <PricingItem
           title="Business"
-          value={16}
+          value="99,90"
           items={[
             "Task Management",
             "Project Planning",
