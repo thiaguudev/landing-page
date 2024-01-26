@@ -10,12 +10,13 @@ export default function Features() {
           </h3>
           <p>
             Aqui estão alguns dos motivos pelos quais você deve hoje mesmo
-            começar a usar a <strong>Survey Apoli</strong> e impulsionar o seu negócio.
+            começar a usar a <strong>Survey Apoli</strong> e impulsionar o seu
+            negócio.
           </p>
         </div>
         <div className="flex gap-[30px] justify-center">
           <div className="w-[370px] h-[384px] flex flex-col gap-5 items-center text-center bg-[#FFFFFF] rounded-2xl px-[30px] py-10">
-            <Image src="/icon.png" alt="Icon 1" width={82} height={82} />
+            <Image src="/icon1.png" alt="Icon 1" width={82} height={82} />
             <h4 className="text-[28px] font-semibold">Fast building</h4>
             <p>
               Tailor Animas Landing Page UI Kit to your unique style and brand
@@ -25,7 +26,7 @@ export default function Features() {
           </div>
 
           <div className="w-[370px] h-[384px] flex flex-col gap-5 items-center text-center bg-[#FFFFFF] rounded-2xl px-[30px] py-10">
-            <Image src="/icon1.png" alt="Icon 1" width={82} height={82} />
+            <Image src="/icon2.png" alt="Icon 1" width={82} height={82} />
             <h4 className="text-[28px] font-semibold">Responsive Design</h4>
             <p>
               No need to worry about screen size. Animas Landing Page UI Kit
