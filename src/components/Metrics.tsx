@@ -8,21 +8,33 @@ export default function Metrics() {
           </h3>
         </div>
         <div className="flex justify-between">
-          <div className="">
-            <p className="font-bold text-[38px]">2k+</p>
-            <p>Clientes satisfeitos</p>
+          <div className="flex gap-5 items-center">
+            <span className="inline-block w-1 h-full bg-[#009379]" />
+            <div>
+              <p className="font-bold text-[38px]">2k+</p>
+              <p>Clientes satisfeitos</p>
+            </div>
           </div>
-          <div className="">
-            <p className="font-bold text-[38px]">3M+</p>
-            <p>Pesquisas respondidas</p>
+          <div className="flex gap-5 items-center">
+            <span className="inline-block w-1 h-full bg-[#009379]" />
+            <div>
+              <p className="font-bold text-[38px]">3M+</p>
+              <p>Pesquisas respondidas</p>
+            </div>
           </div>
-          <div className="">
-            <p className="font-bold text-[38px]">96+</p>
-            <p>Empresas atendidas</p>
+          <div className="flex gap-5 items-center">
+            <span className="inline-block w-1 h-full bg-[#009379]" />
+            <div>
+              <p className="font-bold text-[38px]">96+</p>
+              <p>Empresas atendidas</p>
+            </div>
           </div>
-          <div className="">
-            <p className="font-bold text-[38px]">197+</p>
-            <p>Times cadastrados</p>
+          <div className="flex gap-5 items-center">
+            <span className="inline-block w-1 h-full bg-[#009379]" />
+            <div>
+              <p className="font-bold text-[38px]">197+</p>
+              <p>Times cadastrados</p>
+            </div>
           </div>
         </div>
       </div>

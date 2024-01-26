@@ -2,7 +2,12 @@ import TestimonalItem from "./TestimonialItem";
 
 export default function Testimonals() {
   return (
-    <section className="mt-[100px] flex justify-center items-center p-5">
+    <section className="mt-[100px] flex flex-col justify-center items-center p-5 gap-[60px]">
+      <div className="text-center">
+        <h3 className="text-[38px] font-bold -tracking-tight">
+          O que dizem nossos clientes?
+        </h3>
+      </div>
       <div className="grid grid-cols-3 gap-10 justify-center justify-items-center items-center">
         <TestimonalItem
           name="Roberto Mauro"
