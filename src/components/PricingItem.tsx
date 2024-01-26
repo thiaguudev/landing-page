@@ -4,6 +4,7 @@ type PricingItemProps = {
   title: string;
   value: string;
   items: string[];
+  description?: string;
   isMoreUse?: boolean;
 };
 
@@ -11,6 +12,7 @@ export default function PricingItem({
   title,
   value,
   items,
+  description,
   isMoreUse,
 }: PricingItemProps) {
   return (
@@ -21,7 +23,7 @@ export default function PricingItem({
     >
       {/* {isMoreUse && <div className="text-center text-white bg-[#009379] w-full flex font-semibold justify-center gap-3 absolute top-0 left-0 rounded-t-sm"><span>Mais popular</span><Sparkles /></div>} */}
       <p className="text-xl font-bold">{title}</p>
-      <p className="text-sm">O melhor pra uso pessoal</p>
+      {description && <p className="text-sm">{description}</p>}
       <p className="mt-8">
         <span className="text-3xl font-bold">R${value}</span> /mês
       </p>
