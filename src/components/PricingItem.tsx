@@ -23,7 +23,7 @@ export default function PricingItem({
         </div>
       )}
       <div
-        className={`h-full min-h-[360px] bg-white pt-6 px-6 pb-4 rounded-sm relative max-w-[288px] ${
+        className={`h-full min-h-[360px] bg-white pt-6 px-3 pb-4 rounded-sm relative max-w-[288px] ${
           isMoreUse && "border-solid border-2 border-[#009379]"
         }`}
       >
