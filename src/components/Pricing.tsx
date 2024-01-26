@@ -2,7 +2,7 @@ import PricingItem from "./PricingItem";
 
 export default function Pricing() {
   return (
-    <section className="bg-gray-200 p-10">
+    <section className="p-10">
       <div className="flex gap-5 justify-center">
         <PricingItem
           title="Starter"
