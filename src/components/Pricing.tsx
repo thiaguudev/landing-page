@@ -2,7 +2,10 @@ import PricingItem from "./PricingItem";
 
 export default function Pricing() {
   return (
-    <section className="p-5 flex justify-center items-center w-full">
+    <section className="p-5 flex flex-col justify-center items-center w-full gap-[60px] mx-auto">
+      <div className="text-center">
+        <h3 className="text-[38px] font-bold -tracking-tight">Nossos planos</h3>
+      </div>
       <div className="flex-col sm:flex-row items-center gap-3 justify-center space-y-4 flex-wrap w-full">
         <PricingItem
           title="Starter"
