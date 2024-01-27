@@ -12,14 +12,14 @@ export default function Home() {
   return (
     <main className="py-5">
       <Header />
-      <Hero />
-      <Integrations />
+       <Hero />
+      {/* <Integrations />
       <Features />
       <Testimonals />
       <Metrics />
       <Pricing />
       <Subscribe />
-      <Footer />
+      <Footer /> */}
     </main>
   );
 }

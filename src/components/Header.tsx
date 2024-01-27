@@ -11,7 +11,7 @@ export default function Header() {
         <div>
           <Image src="/logo.svg" alt="Logotipo" width={179} height={32} />
         </div>
-        <nav>
+        <nav className="hidden md:block">
           <ul className="flex gap-5 items-center">
             <li>
               <a

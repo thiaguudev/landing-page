@@ -19,18 +19,20 @@ export default function Hero() {
           transition={{ duration: 0.5, ease: "linear" }}
           initial={{ x: -1750 }}
           animate={{ x: [-1750, 0] }}
-          className="xl:text-[90px] text-4xl tracking-tighter font-bold leading-snug text-center"
+          className="whitespace-nowrap xl:text-[90px] text-3xl md:text-4xl lg:text-4xl tracking-tighter font-bold leading-snug text-center"
         >
           O jeito mais simples de colher a{" "}
           <motion.span
             className={cn(
-              "bg-[#009379] text-white py-3 xl:px-16 rounded-3xl inline-block md:px-10"
+              "bg-[#009379] text-white py-2 xl:px-16 rounded-2xl block px-5 xl:mt-7 xl:py-8"
             )}
           >
             avaliação dos seus clientes
           </motion.span>
         </motion.h1>
-        <p className="text-2xl font-semibold">Faça sua empresa decolar!</p>
+        <p className="text-lg md:text-2xl font-semibold text-center">
+          Faça sua empresa decolar!
+        </p>
         <a
           href="#get-a-demo"
           className={cn(
