@@ -16,7 +16,7 @@ export default function PricingItem({
   isMoreUse,
 }: PricingItemProps) {
   return (
-    <div className={`relative grow basis-[200px] flex-1 w-full min-h-[360px] max-w-[288px]  ${isMoreUse && ""}`}>
+    <div className={`relative grow basis-[300px] flex-1 min-h-[360px] max-w-[300px] w-full  ${isMoreUse && ""}`}>
       {/* {isMoreUse && (
         <div className="lg:hidden flex z-50 text-center absolute -top-7 left-0 w-full max-w-[288px] h-8 font-bold text-white bg-[#009379] justify-center gap-2 items-center rounded-t-sm">
           Mais popular <Sparkles />
