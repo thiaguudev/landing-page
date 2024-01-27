@@ -16,7 +16,7 @@ export default function TestimonalItem({
   children,
 }: TestimonalItemProps) {
   return (
-    <div className="flex items-start justify-center gap-2 min-w-[350px] rounded-[20px] py-7 px-9 bg-white">
+    <div className="flex items-start justify-center gap-2 basis-[380px] h-[420px] rounded-[20px] py-7 px-9 bg-white">
       <Image
         src={pictureSrc}
         alt="Profile testimonial"
@@ -26,10 +26,10 @@ export default function TestimonalItem({
       <div className="flex flex-col">
         <div className="flex flex-col">
           <div className="flex items-center justify-between">
-            <strong className="text-2xl">{name}</strong>
-            <div className="flex gap-2">
+            <strong className="text-xl">{name}</strong>
+            <div className="flex gap-1">
               {Array.from(new Array(5)).map((item, index) => (
-                <Star key={index} color="#009379" fill="#009379" />
+                <Star key={index} color="#009379" fill="#009379" width={16}/>
               ))}
             </div>
           </div>
