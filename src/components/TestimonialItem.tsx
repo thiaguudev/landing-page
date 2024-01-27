@@ -16,7 +16,7 @@ export default function TestimonalItem({
   children,
 }: TestimonalItemProps) {
   return (
-    <div className="flex items-start justify-center gap-2 basis-[380px] h-[420px] rounded-[20px] py-7 px-9 bg-white">
+    <div className="flex items-start justify-center gap-2 w-full basis-[380px] min-h-[420px] h-full rounded-[20px] py-7 px-9 bg-white">
       <Image
         src={pictureSrc}
         alt="Profile testimonial"
