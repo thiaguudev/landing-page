@@ -2,8 +2,8 @@ import PricingItem from "./PricingItem";
 
 export default function Pricing() {
   return (
-    <section className="p-10 flex justify-center">
-      <div className="grid grid-cols-3 justify-items-center gap-7">
+    <section className="p-10 flex justify-center items-center bg-emerald-500">
+      <div className="flex-col sm:flex-row items-center gap-5 justify-center space-y-4 flex-wrap w-full">
         <PricingItem
           title="Starter"
           description="O melhor pra uso pessoal"

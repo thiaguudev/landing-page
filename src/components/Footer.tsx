@@ -4,9 +4,9 @@ import { Instagram, Facebook } from "lucide-react";
 export default function Footer() {
   return (
     <footer className="h-20 bg-black flex items-center justify-center">
-      <div className="flex justify-between items-center px-[60px] w-full max-w-[1246px]">
-        <p className="text-white text-sm">© 2024 Survey Apoli. </p>
-        <div className="flex gap-4">
+      <div className="flex-col space-y-1 sm:flex-row justify-center sm:justify-between items-center px-[60px] w-full max-w-[1246px]">
+        <p className="text-white text-sm text-center">© 2024 Survey Apoli. </p>
+        <div className="flex gap-4 justify-center">
           <Link
             href="https://www.instagram.com/survey.apoli"
             target="_blank"
