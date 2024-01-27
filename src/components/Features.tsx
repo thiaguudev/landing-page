@@ -14,8 +14,8 @@ export default function Features() {
             negócio.
           </p>
         </div>
-        <div className="flex gap-[30px] justify-center">
-          <div className="w-[370px] h-[384px] flex flex-col gap-5 items-center text-center bg-[#FFFFFF] rounded-2xl px-[30px] py-10">
+        <div className="flex flex-wrap gap-[30px] justify-center items-center">
+          <div className="flex-1 basis-40 min-w-[370px] h-[384px] flex flex-col gap-5 items-center text-center bg-[#FFFFFF] rounded-2xl px-[30px] py-10">
             <Image src="/icon1.png" alt="Icon 1" width={82} height={82} />
             <h4 className="text-[28px] font-semibold">Fast building</h4>
             <p>
@@ -24,8 +24,7 @@ export default function Features() {
             </p>
             <p className="text-[#009379]">Learn More</p>
           </div>
-
-          <div className="w-[370px] h-[384px] flex flex-col gap-5 items-center text-center bg-[#FFFFFF] rounded-2xl px-[30px] py-10">
+          <div className="flex-1 basis-40 min-w-[370px] h-[384px] flex flex-col gap-5 items-center text-center bg-[#FFFFFF] rounded-2xl px-[30px] py-10">
             <Image src="/icon2.png" alt="Icon 1" width={82} height={82} />
             <h4 className="text-[28px] font-semibold">Responsive Design</h4>
             <p>
@@ -34,8 +33,7 @@ export default function Features() {
             </p>
             <p className="text-[#009379]">Learn More</p>
           </div>
-
-          <div className="w-[370px] h-[384px] flex flex-col gap-5 items-center text-center bg-[#FFFFFF] rounded-2xl px-[30px] py-10">
+          <div className="flex-1 basis-40 min-w-[370px] h-[384px] flex flex-col gap-5 items-center text-center bg-[#FFFFFF] rounded-2xl px-[30px] py-10">
             <Image src="/icon2.png" alt="Icon 1" width={82} height={82} />
             <h4 className="text-[28px] font-semibold">No Code Needed</h4>
             <p>

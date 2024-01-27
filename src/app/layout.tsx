@@ -26,7 +26,7 @@ type RootLayoutProps = Readonly<{
 
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
-    <html lang="en">
+    <html lang="pt-BR">
       <body
         className={cn(
           "min-h-screen bg-background font-sans antialiased px-4 mx-auto w-full bg-[#F8F9FF] bg-gradient-to-tr from-white to-emerald-50",
