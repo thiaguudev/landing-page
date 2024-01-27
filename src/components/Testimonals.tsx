@@ -8,7 +8,7 @@ export default function Testimonals() {
           O que dizem nossos clientes?
         </h3>
       </div>
-      <div className="grid grid-cols-3 gap-10 justify-center justify-items-center items-center">
+      <div className="flex flex-wrap items-center justify-center gap-2">
         <TestimonalItem
           name="Roberto Mauro"
           job="Gerente de Experiência do Cliente"
