@@ -20,7 +20,7 @@ export default function Subscribe() {
   return (
     <section className="bg-[#E5F4F2] h-[311px] flex items-center justify-center mt-5">
       <div className="flex flex-col items-center gap-[16px]">
-        <h3 className="text-[38px] font-bold -tracking-tight">
+        <h3 className="text-[38px] font-bold -tracking-tight text-center">
           Inscreva-se e ganhe um desconto de 25%
         </h3>
         <form

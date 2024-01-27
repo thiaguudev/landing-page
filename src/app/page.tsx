@@ -16,10 +16,9 @@ export default function Home() {
       <Integrations />
        <Features />
       <Testimonals />
-      {/*<Metrics />
-      <Pricing />
-      <Subscribe />
-      <Footer /> */}
+      {/* <Pricing /> */}
+      {/* <Subscribe /> */}
+      <Footer />
     </main>
   );
 }
