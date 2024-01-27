@@ -23,7 +23,7 @@ export default function TestimonalItem({
         width={57}
         height={57}
       />
-      <div className="flex flex-col">
+      <div className="flex flex-col gap-2">
         <div className="flex flex-col">
           <div className="flex items-center justify-between">
             <strong className="text-xl">{name}</strong>

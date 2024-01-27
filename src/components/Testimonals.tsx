@@ -2,7 +2,7 @@ import TestimonalItem from "./TestimonialItem";
 
 export default function Testimonals() {
   return (
-    <section className="mt-[100px] max-w-[1246px] flex flex-col justify-center items-center p-5 gap-[60px] mx-auto">
+    <section className="mt-[100px] max-w-[1246px] flex flex-col justify-center items-center p-2 gap-[60px] mx-auto">
       <div className="text-center">
         <h3 className="text-[38px] font-bold -tracking-tight">
           O que dizem nossos clientes?
@@ -14,34 +14,25 @@ export default function Testimonals() {
           job="Gerente de Experiência do Cliente"
           pictureSrc="/e1.png"
         >
-          O produto da Survey Apoli transformou nossa abordagem em relação ao
-          feedback do cliente. Antes, era um desafio coletar dados
-          significativos, mas agora, com esta solução, obtemos respostas rápidas
-          e relevantes. A capacidade de entender as necessidades dos nossos
-          usuários de forma tão eficaz mudou completamente o jogo para nós.
+          Adotar essa ferramenta foi um game changer. Analisamos feedbacks de
+          forma mais natural e entendemos as expectativas dos clientes de
+          maneira direta. Simples e impactante!
         </TestimonalItem>
         <TestimonalItem
           name="João Arthur"
           job="Gerente de Operações"
           pictureSrc="/e2.png"
         >
-          A Survey Apoli não apenas fornece uma maneira eficaz de coletar
-          feedback, mas também nos ajuda a transformar esses dados em ações
-          concretas. Com relatórios detalhados e sugestões prontas para
-          implementação, esta ferramenta se tornou fundamental para o nosso
-          processo de melhoria contínua. Uma solução completa e inovadora!
+          Inovação prática e eficaz. Com a Survey Apoli, entendemos clientes de
+          maneira rápida e obtivemos resultados reais.
         </TestimonalItem>
         <TestimonalItem
           name="Ana Claúdia"
           job="CEO de uma Startup de Tecnologia"
           pictureSrc="/e3.png"
         >
-          Desde que começamos a utilizar o produto de coleta de feedback da
-          Survey Apoli, nossa interação com os clientes atingiu um novo nível.
-          As informações detalhadas e a facilidade de uso nos proporcionaram
-          insights valiosos para melhorar continuamente nossos serviços. Uma
-          ferramenta indispensável para qualquer empresa que valorize a
-          satisfação do cliente!
+          Usar essa ferramenta foi transformador. Feedbacks agora são uma mina
+          de ouro para melhorias rápidas. Recomendo!
         </TestimonalItem>
         {/* <TestimonalItem name="Celso Pedro" job="Diretor de Marketing">
           Estamos encantados com a eficácia do produto da Survey Apoli. A

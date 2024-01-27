@@ -10,14 +10,14 @@ export default function Pricing() {
         <PricingItem
           title="Starter"
           description="O melhor pra uso pessoal"
-          value="59,90"
+          value="57"
           items={["1 usuário", "Pesquisas por Email, Site", "Notificações App"]}
         />
         <PricingItem
           isMoreUse
           title="Plus"
           description="O melhor pra pequenos times"
-          value="99,90"
+          value="97"
           items={[
             "3 usuários",
             "Pesquisas por Email, Site",
@@ -28,7 +28,7 @@ export default function Pricing() {
         <PricingItem
           title="Business"
           description="O melhor pra grandes empresas"
-          value="179,90"
+          value="197"
           items={[
             "10 usuários",
             "Pesquisas por Email, Site",
