@@ -4,7 +4,6 @@ import Integrations from "@/components/Integrations";
 import Features from "@/components/Features";
 import Metrics from "@/components/Metrics";
 import Testimonals from "@/components/Testimonals";
-import Subscribe from "@/components/Subscribe";
 import Footer from "@/components/Footer";
 import Pricing from "@/components/Pricing";
 
@@ -17,7 +16,6 @@ export default function Home() {
        <Features />
       <Testimonals />
       <Pricing />
-      {/* <Subscribe /> */}
       <Footer />
     </main>
   );
