@@ -16,29 +16,32 @@ export default function Features() {
         </div>
         <div className="flex flex-wrap gap-[30px] justify-center items-center">
           <div className="flex-1 basis-40 min-w-[370px] h-[384px] flex flex-col gap-5 items-center text-center bg-[#FFFFFF] rounded-2xl px-[30px] py-10">
+            <Image src="/icon2.png" alt="Icon 1" width={82} height={82} />
+            <h4 className="text-[28px] font-semibold">Coleta de feedback</h4>
+            <p>
+              Transforme opiniões em insights valiosos. Nossa ferramenta
+              simplifica a coleta de feedbacks, fornecendo uma visão clara das
+              percepções dos clientes.
+            </p>
+            <p className="text-[#009379]">Learn More</p>
+          </div>
+          <div className="flex-1 basis-40 min-w-[370px] h-[384px] flex flex-col gap-5 items-center text-center bg-[#FFFFFF] rounded-2xl px-[30px] py-10">
+            <Image src="/icon2.png" alt="Icon 1" width={82} height={82} />
+            <h4 className="text-[28px] font-semibold">Notificações</h4>
+            <p>
+              Fique sempre atualizado. Receba notificações instantâneas sobre
+              novos feedbacks, garantindo uma resposta rápida às necessidades
+              dos seus clientes.
+            </p>
+            <p className="text-[#009379]">Learn More</p>
+          </div>
+          <div className="flex-1 basis-40 min-w-[370px] h-[384px] flex flex-col gap-5 items-center text-center bg-[#FFFFFF] rounded-2xl px-[30px] py-10">
             <Image src="/icon1.png" alt="Icon 1" width={82} height={82} />
-            <h4 className="text-[28px] font-semibold">Fast building</h4>
+            <h4 className="text-[28px] font-semibold">Dashboard de Dados</h4>
             <p>
-              Tailor Animas Landing Page UI Kit to your unique style and brand
-              with customisable components, in no time!
-            </p>
-            <p className="text-[#009379]">Learn More</p>
-          </div>
-          <div className="flex-1 basis-40 min-w-[370px] h-[384px] flex flex-col gap-5 items-center text-center bg-[#FFFFFF] rounded-2xl px-[30px] py-10">
-            <Image src="/icon2.png" alt="Icon 1" width={82} height={82} />
-            <h4 className="text-[28px] font-semibold">Responsive Design</h4>
-            <p>
-              No need to worry about screen size. Animas Landing Page UI Kit
-              adapts to any screen size, from desktop to mobile.
-            </p>
-            <p className="text-[#009379]">Learn More</p>
-          </div>
-          <div className="flex-1 basis-40 min-w-[370px] h-[384px] flex flex-col gap-5 items-center text-center bg-[#FFFFFF] rounded-2xl px-[30px] py-10">
-            <Image src="/icon2.png" alt="Icon 1" width={82} height={82} />
-            <h4 className="text-[28px] font-semibold">No Code Needed</h4>
-            <p>
-              Zero coding skills required, Animas Landing Page UI Kit empowers
-              you to create stunning landing pages with ease.
+              Controle total em um único lugar. Nosso dashboard intuitivo
+              oferece uma visão abrangente e em tempo real dos dados de
+              pesquisa, permitindo decisões informadas e estratégicas.
             </p>
             <p className="text-[#009379]">Learn More</p>
           </div>
