@@ -19,15 +19,15 @@ export default function Hero() {
           transition={{ duration: 0.5, ease: "linear" }}
           initial={{ x: -1750 }}
           animate={{ x: [-1750, 0] }}
-          className="whitespace-nowrap xl:text-[90px] text-3xl md:text-4xl lg:text-4xl tracking-tighter font-bold leading-snug text-center"
+          className="whitespace-nowrap xl:text-[90px] text-2xl sm:text-4xl md:text-4xl lg:text-5xl tracking-tighter font-bold leading-snug text-center"
         >
-          O jeito mais simples de colher a{" "}
+          O jeito mais simples de colher{" "}
           <motion.span
             className={cn(
               "bg-[#009379] text-white py-2 xl:px-16 rounded-2xl block px-5 xl:mt-7 xl:py-8"
             )}
           >
-            avaliação dos seus clientes
+            avaliações dos seus clientes
           </motion.span>
         </motion.h1>
         <p className="text-lg md:text-2xl font-semibold text-center">
